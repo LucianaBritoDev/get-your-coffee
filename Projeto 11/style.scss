@@ -61,3 +61,47 @@ button {
   cursor: pointer;
   color: white;
 }
+
+
+@media (max-width: 768px) {
+  header {
+    height: 20vh;
+    flex-direction: column;
+  }
+}
+
+.caixaLogo {
+  height: 20vh;
+  flex-direction: column;
+}
+
+nav {
+  width: 95%;
+
+  ul {
+    height: 20vh;
+    flex-direction: column;
+  }
+}
+
+a {
+  font-size: 22px;
+}
+
+main {
+  height: 20vh;
+  flex-direction: column;
+}
+
+.containerPedidos {
+  height: 20vh;
+  flex-direction: column;
+}
+
+p {
+  font-size: 22px;
+}
+
+button {
+  height: 20vh;
+}
